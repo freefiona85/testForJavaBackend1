@@ -1,3 +1,15 @@
+in this project using Spring boot with 
+ - handler 404 or 500 
+ - Spring boot 2.5.0
+ - swagger-ui
+ - FlickrAPI using ScribeJava core, API, ScribeJava 8.3.1
+
+For Another API Exists : 
+ - Search Photo by photo_id and page
+ - search List Comments
+ - Testing Login Authentication OAuth with ScribeJava to Flickr Web
+
+
 # Simple Coding Test for AIA SG Java Backend - 1
 
 ### What will you do, in general?
