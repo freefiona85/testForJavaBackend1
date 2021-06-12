@@ -39,40 +39,33 @@
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<!-- <dependency>
+		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-boot-starter</artifactId>
 			<version>3.0.0</version>
-		</dependency> -->
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jdbc</artifactId>
 		</dependency>
-		<!-- <dependency>
-			<groupId>com.flickr4java</groupId>
-			<artifactId>flickr4java</artifactId>
-			<version>3.0.2</version>
-		</dependency> -->
-		<!-- https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis -->
-		<!-- https://mvnrepository.com/artifact/com.github.scribejava/scribejava-core -->
-<dependency>
-    <groupId>com.github.scribejava</groupId>
-    <artifactId>scribejava-core</artifactId>
-    <version>8.3.1</version>
-</dependency>
-		<!-- https://mvnrepository.com/artifact/com.github.scribejava/scribejava -->
-<dependency>
-    <groupId>com.github.scribejava</groupId>
-    <artifactId>scribejava</artifactId>
-    <version>8.3.1</version>
-    <type>pom</type>
-</dependency>
-		
-<dependency>
-    <groupId>com.github.scribejava</groupId>
-    <artifactId>scribejava-apis</artifactId>
-    <version>8.3.1</version>
-</dependency>
+
+		<dependency>
+			<groupId>com.github.scribejava</groupId>
+			<artifactId>scribejava-core</artifactId>
+			<version>8.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.scribejava</groupId>
+			<artifactId>scribejava</artifactId>
+			<version>8.3.1</version>
+			<type>pom</type>
+		</dependency>
+
+		<dependency>
+			<groupId>com.github.scribejava</groupId>
+			<artifactId>scribejava-apis</artifactId>
+			<version>8.3.1</version>
+		</dependency>
 
 	</dependencies>
 
