@@ -28,7 +28,7 @@ public class FlickrWithTokenController extends FlickrController {
 	public void searchWithToken(HttpServletRequest request, HttpServletResponse response)
 			throws IOException, InterruptedException, ExecutionException {
 		OAuth10aService service = new ServiceBuilder(ConstantsGlobal.API_KEY).apiSecret(ConstantsGlobal.API_SECRET)
-				.callback("http://localhost:9002/interview/token/call").build(FlickrApi.instance(FlickrApi.FlickrPerm.READ));
+				.callback(ConstantsGlobal.getBaseUrl(request)+"/token/call").build(FlickrApi.instance(FlickrApi.FlickrPerm.READ));
 		setToken(service.getRequestToken());
 		String urlsAuth = service.getAuthorizationUrl(getToken());
 		response.sendRedirect(urlsAuth + "&perms=read");
