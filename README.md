@@ -9,7 +9,7 @@ For Another API Exists :
  - search List Comments
  - Testing Login Authentication OAuth with ScribeJava to Flickr Web
 
-for example try this link https://invspringboot.herokuapp.com/swagger-ui
+for example try this link https://invspringboot.herokuapp.com/swagger-ui/
 
 
 # Simple Coding Test for AIA SG Java Backend - 1
