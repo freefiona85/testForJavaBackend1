@@ -10,3 +10,7 @@ Clone the branch on your local Computer
 -install it on your device type that on ur command line after find the directory mvn clean install
 
 -after that run the project mvn spring-boot:run
+-open browser and type
+localhost:8086/swagger-ui.html
+
+to test the response
